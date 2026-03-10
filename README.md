@@ -4,20 +4,19 @@
 - 와인은 산도, 당도, 알코올 함량 등 다양한 화학적 성분에 의해 특징이 구분된다. 본 프로젝트에서는 이러한 와인의 화학적 특성 데이터를 활용해 해당 와인이 레드와인인지, 화이트와인인지 분류하는 머신러닝 모델을 구축하는 것을 목표로한다.<br>
 ## 2. 데이터
 - Kaggle Wine Quality Dataset
-| 변수                   | 설명              |
-| -------------------- | --------------- |
-| type                 | 레드와인 / 화이트와인 구분 |
-| fixed acidity        | 고정 산도           |
-| volatile acidity     | 휘발성 산도          |
-| citric acid          | 시트르산            |
-| residual sugar       | 잔여 당분           |
-| chlorides            | 염화물             |
-| free sulfur dioxide  | 자유 이산화황         |
-| total sulfur dioxide | 총 이산화황          |
-| density              | 밀도              |
-| pH                   | 산성도             |
-| sulphates            | 황산염             |
-| alcohol              | 알코올 함량          |
+type: 레드와인인지 화이트 와인인지 구별
+fixed acidity: 고정산도
+volatile acidity: 휘발성 산도
+citric acid: 시트르산(구연산)
+residual sugar: 잔여당분
+chlorides: 염화물
+free sulfur dioxide: 자유 이산화황
+total sulfur dioxide: 총 이산화황
+density: 밀도
+pH: 산성도
+sulphates: 황산염
+alcohol: 알코올도수
+quality: 등급
 
 ## 3. 분석 과정
 1. 데이터 이해
